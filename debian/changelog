@@ -1,3 +1,10 @@
+pve-cluster (9.1.17+s390x1) trixie; urgency=medium
+
+  * s390x port, rebased onto 9.1.17:
+    - pmxcfs: check_memdb: accept the big-endian index checksum.
+
+ -- Yvan Janssens <yvanj@cyber.gent>  Wed, 25 Nov 2026 16:07:32 +0000
+
 pve-cluster (9.1.17) trixie; urgency=medium
 
   * api: join info: rename the 'pve_version' property that 9.1.16 added to
